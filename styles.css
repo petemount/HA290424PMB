@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+#titel {
+  color: white;
+  font-family: fantasy, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.alpha {
+  color: grey;
+}
+
+.woi {
+  color: darkgoldenrod;
+}
+
+.beta {
+  color: red;
+}
+.alpha,
+.beta,
+.woi {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-around;
+}
+
+.alpha,
+.beta,
+.woi {
+  border: 2px dotted;
+  border-radius: 12px;
+  padding: 0px 10px;
+}
+nav * {
+  display: flex;
+  list-style-type: none;
+  margin: 2px 5px;
+  padding: 0px;
+  justify-content: center;
+}
+
+#impressum {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+}
+h1 {
+  text-align: center;
+}
